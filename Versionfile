@@ -1,0 +1,16 @@
+automate_git
+
+read_version do
+  contents = File.read File.join(Dir.pwd, "lib/web-lib/version.rb")
+  instance_eval(contents)
+  WebLib::VERSION
+end
+
+write_version do |currentVersion, nextVersion|
+  contents = File.read File.join(Dir.pwd, "lib/web-lib/version.rb")
+  contents = contents.sub(currentVersion.to_s, nextVersion.to_s)
+
+  File.open(File.join(Dir.pwd, "lib/web-lib/version.rb"), 'w') do |file| 
+    file.write contents
+  end
+end
