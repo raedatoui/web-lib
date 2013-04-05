@@ -5,14 +5,14 @@ require "web-lib/version"
 Gem::Specification.new do |s|
   s.name        = 'web-lib'
   s.version     = WebLib::VERSION
-  s.date        = '2013-04-03'
-  s.summary     = "A collection of amazing JS libraries and CSS frameworks I use a lot (that are not distributed as gems unfortunately)"
-  s.description = "Yeah"
-  s.authors     = ["Jonathan Pettersson"]
-  s.email       = 'jonathan@spacetofu.com'
+  s.date        = '2013-04-05'
+  s.summary     = "Your Majesty's standard JS/CSS libs"
+  s.description = "Yes!"
+  s.authors     = ["The knights of Your Majesty"]
+  s.email       = 'nah@no.email'
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.homepage    = 'https://github.com/jpettersson/jslibs'
+  s.homepage    = 'https://github.com/Your-Majesty/web-lib'
 
-  #s.add_runtime_dependency "exojs"
+  s.add_runtime_dependency "exojs"
 end
