@@ -1,21 +1,14 @@
-web-lib *microgem*
-==================
+Your Majesty's web-lib
+======================
 
-When working with Rails & Middleman:
-* JS libraries and CSS frameworks should be considered real dependencies.
-* Not all JS/CSS libs are available as gems.
-* Trying to manage them outside of Bundler creates a mess. 
+This is a *microgem* containing standard JS/CSS libraries we use at Your Majesty. We have packaged these into a gem to take advantage of Bundler for better version management & installation.
 
-That's why I've packaged my standard JS & CSS libs into a microgem that I can install
-directly from this repo. <br />I've written a [blog post](http://url) on why it's awesome.
+Read more about the idea behind this [here](http://jpettersson.com/manage-web-dependencies-with-microgem/).
 
 <br />
 
 Included Libraries
 ------------------
-
-The following is a list of libraires included in the edge version of this microgem. As my preferences change I might 
-replace them, but I will be sleeping well since dependencies of my old projects are managed by Bundler.
 
 | Name            | Author(s)         | License       |
 |-----------------|-------------------|---------------|
@@ -41,9 +34,3 @@ gem 'web-lib', :git => 'https://github.com/jpettersson/web-lib/'
 //= require 'web-lib/TweenMax.min'
 
 ```
-
-Fork!
------
-The workflow and the microgem itself are easily forked. The idea behing the generic namespace 'web-lib' is that anyone 
-can customize the contents to suit their needs. It also implies that there should be only one web-lib per project to 
-keep things manageable.
