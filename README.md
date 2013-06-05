@@ -16,7 +16,7 @@ Included as files
 | [TweenMax](http://www.greensock.com/tweenmax/) | Jack Doyle | [License](http://www.greensock.com/terms_of_use.html)
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
 | [Spectrum](http://bgrins.github.io/spectrum/) | See site | [MIT](https://github.com/bgrins/spectrum/)
-| [jquery.form.js](http://www.malsup.com/jquery/form/) | See site | [MIT|GPL](https://github.com/malsup/form/)
+| [jquery.form.js](http://www.malsup.com/jquery/form/) | See site | [MIT,GPL](https://github.com/malsup/form/)
 
 
 Included as gem dependencies
