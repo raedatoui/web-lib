@@ -1,7 +1,5 @@
-Your Majesty's web-lib
+web-lib
 ======================
-
-This is a microgem containing the standard JS/CSS libraries we use at Your Majesty. We have packaged these into a gem to take advantage of Bundler for better version management & installation.
 
 Read more about the idea behind this [here](http://jpettersson.com/manage-web-dependencies-with-microgem/).
 
