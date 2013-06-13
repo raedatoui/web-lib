@@ -15,6 +15,7 @@ Included as files
 | [Modernizr](http://modernizr.com/) | See site | [MIT](http://modernizr.com/license/)
 | [Spectrum](http://bgrins.github.io/spectrum/) | See site | [MIT](https://github.com/bgrins/spectrum/)
 | [jquery.form.js](http://www.malsup.com/jquery/form/) | See site | [MIT,GPL](https://github.com/malsup/form/)
+| [moment.js](http://momentjs.com) | See site | [MIT](https://github.com/timrwood/moment/)
 
 
 Included as gem dependencies
